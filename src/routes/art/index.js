@@ -1,17 +1,18 @@
 import { h, Component } from 'preact';
 import style from './style';
 
-  let content = 'undefined'
+let content = 'undefined'
 
 export default class Art extends Component {
 	
 	// Note: `article` comes from the URL, courtesy of our router
 	render({ article }, { }) {
-  	  if ({article} = 'Jandl') {
-  	    content = 'Ernst J. '
-  	  } else {
-  	    content = 'default'
-  	  }
+
+//    	  if ({article} = 'jandl') {
+//    	    content = 'Ernst J. '
+//    	  } else {
+//    	    content = 'default'
+//    	  }
   		return (
 			<div class={style.profile}>
 				<h1>Profile: {article}</h1>
