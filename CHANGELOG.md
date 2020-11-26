@@ -6,6 +6,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.2.1] - 2020-11-26
+### Changed
+- Update README
+
 ## [Released]
 
 ## [0.2.0] - 2020-11-19
@@ -58,3 +62,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - This CHANGELOG file
 ### Changed
 - Project name and version
+- Rename my-project and update package.json and package-lock.json
