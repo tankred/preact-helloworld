@@ -2,6 +2,7 @@ import { h, Component } from 'preact';
 import { Router } from 'preact-router';
 
 import Header from './header';
+import Footer from './footer';
 
 // Code-splitting is automated for routes
 import Home from '../routes/home';
@@ -19,17 +20,19 @@ export default class App extends Component {
 	};
 
 	render() {
-		return (
-			<div id="app">
-				<Header />
-				<Router onChange={this.handleRoute}>
+	  return (
+	    <div id="app">
+	      <Header />
+	      <Router onChange={this.handleRoute}>
 					<Home path="/" />
 					<Profile path="/profile/" user="me" />
 					<Profile path="/profile/:user" />
 					<Art path="/art/" article="Jandl" />
 					<Art path="/art/:article" />
-				</Router>
-			</div>
-		);
+	      </Router>
+	      <Footer /> 
+	    </div>
+	  );
 	}
 }
+
