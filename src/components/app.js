@@ -8,6 +8,7 @@ import Footer from './footer';
 import Home from '../routes/home';
 import Profile from '../routes/profile';
 import Art from '../routes/art';
+import Kirkeby from '../routes/kirkeby';
 
 export default class App extends Component {
 	
@@ -29,6 +30,7 @@ export default class App extends Component {
 					<Profile path="/profile/:user" />
 					<Art path="/art/" article="Jandl" />
 					<Art path="/art/:article" />
+					<Kirkeby path="/" />
 	      </Router>
 	      <Footer /> 
 	    </div>
