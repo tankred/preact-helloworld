@@ -30,7 +30,7 @@ export default class App extends Component {
 					<Profile path="/profile/:user" />
 					<Art path="/art/" article="Jandl" />
 					<Art path="/art/:article" />
-					<Kirkeby path="/" />
+					<Kirkeby path="/kirkeby/" />
 	      </Router>
 	      <Footer /> 
 	    </div>
